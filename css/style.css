@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
-p {
+.success {
+  color: green;
+}
+
+.error {
   color: red;
 }
