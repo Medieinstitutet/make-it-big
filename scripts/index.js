@@ -12,7 +12,7 @@ const renderFeedbackMessage = status => {
 };
 
 const validateInput = userInput => {
-  const nameRegex = /^[a-zA-Z\s]+$/;
+  const nameRegex = /^[a-z\s]+$/gi;
   if (nameRegex.test(userInput)) {
     form.username.value = stringToUpperCase(userInput);
     renderFeedbackMessage('success');
