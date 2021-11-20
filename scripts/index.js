@@ -1,4 +1,4 @@
-import { validateInput } from '../utils/validateInput.js';
+import { validateInput } from './validateInput.js';
 
 const form = document.querySelector('form');
 
