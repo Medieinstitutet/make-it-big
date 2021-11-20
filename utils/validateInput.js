@@ -1,5 +1,5 @@
-import { stringToUpperCase } from '../utils/stringToUpperCase.js';
-import { renderFeedbackMessage } from '../utils/renderFeedbackMessage.js';
+import { stringToUpperCase } from './stringToUpperCase.js';
+import { renderFeedbackMessage } from './renderFeedbackMessage.js';
 
 const form = document.querySelector('form');
 
